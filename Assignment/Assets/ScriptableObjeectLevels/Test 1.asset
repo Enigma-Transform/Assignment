@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d38601140981c4aabef8d9781b7454, type: 3}
+  m_Name: Test 1
+  m_EditorClassIdentifier: 
+  levelAnimation: {fileID: 0}
+  questionTexts:
+  - I need medicine !
+  - Need Money
+  answersText:
+  - medicine
+  - Money
+  wrongAnswersText:
+  - Food
+  - Water
+  correctAnswerSequence: 0000000001000000
+  questionSprite:
+  - {fileID: 21300000, guid: 53c1cc60fa0d5c54998b61b5435053e3, type: 3}
+  - {fileID: 21300000, guid: 6d8abb04831d610488d2bb1ad6166b30, type: 3}
+  answerSprite:
+  - {fileID: 21300000, guid: e9be217667874de4a9ef92890b8b064d, type: 3}
+  - {fileID: 21300000, guid: 619e223b72d96b345835403d9bb82c19, type: 3}
+  wrongSprite:
+  - {fileID: 21300000, guid: 656e91d02da2f2040a19751e7783daac, type: 3}
+  - {fileID: 21300000, guid: abf3b7628b760bb4991fe52731c39ba1, type: 3}
+  wrongAnswerAnimations: []
